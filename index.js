@@ -17,8 +17,10 @@ function distanceTravelledInFeet(a, b) {
   }
 }
 
-function calculatesFarePrice() {
-
+function calculatesFarePrice(a, b) {
+  switch (distanceTravelledInFeet(a, b)) {
+    case 400: return 
+  }
 
 }
 
