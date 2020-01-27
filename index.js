@@ -9,8 +9,8 @@ function distanceFromHqInFeet(x){
  return (distanceFromHqInBlocks(x) * 264)
 }
 
-function distanceTravelledInFeet() {
-
+function distanceTravelledInFeet(a, b) {
+  return ((b - a) * 264)
 }
 
 function calculatesFarePrice() {
