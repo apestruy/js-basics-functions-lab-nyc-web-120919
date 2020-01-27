@@ -19,7 +19,9 @@ function distanceTravelledInFeet(a, b) {
 
 function calculatesFarePrice(a, b) {
   switch (distanceTravelledInFeet(a, b)) {
-    case 400: return 
+    case 400: return "free!";
+    break;
+    case 
   }
 
 }
