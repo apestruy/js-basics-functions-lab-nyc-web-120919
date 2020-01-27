@@ -18,10 +18,15 @@ function distanceTravelledInFeet(a, b) {
 }
 
 function calculatesFarePrice(a, b) {
-  switch (distanceTravelledInFeet(a, b)) {
-    case 400: return "free!";
-    break;
-    case 
+  const distance = distanceTravelledInFeet(a, b);
+  
+  if (distance <= 400) {
+    return 0;
+  } else if (distance > 400 && distance < 2000) {
+    return (distance * 2);
+  } else if (distance > 2000 && distance < 2500) {
+      
+    }
   }
 
 }
